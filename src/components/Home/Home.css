@@ -1,0 +1,409 @@
+/* import back from '../../assets/hometuter-1.jpg'; */
+.background{
+    background-image: linear-gradient(-70deg, rgb(24, 87, 116), rgb(0,0,0));
+    display: flex;
+    min-height: 95vh;
+    justify-content: center;
+    /* align-items: center; */
+}
+.heading{
+     /* background-color: blue; */
+     /* padding:100px 120px; */
+     width: 50%;
+     padding-left: 150px;
+     padding-top: 120px;
+}
+  
+.heading h1{
+    font-size: 3rem;
+    font-family: sans-serif;
+    /* letter-spacing: 1px; */
+
+    background: linear-gradient( rgb(255, 214, 103), rgb(255, 202, 57), rgb(255, 214, 103));
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
+}
+
+.heading p{
+    color: white;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.image{
+    width: 50%;
+    /* height: 85%; */
+    object-fit: fill;
+    overflow: hidden;
+    padding:100px 150px;
+}
+.imageHover{
+    overflow:hidden;
+    border: 25px double rgb(255, 202, 57);
+    border-radius: 230px;
+    /* border-style: ; */
+}
+.image img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+@media screen and (max-width:635px) {
+  .background{
+    flex-direction: column-reverse;
+  }
+  .heading{ 
+    width: 95%;
+    padding: 10px 0px;
+    margin: 10px;
+  }
+  .heading h1{
+    font-size: 1.8rem !important;
+    font-family: sans-serif;
+    /* letter-spacing: 1px; */
+
+    background: linear-gradient( rgb(255, 214, 103), rgb(255, 202, 57), rgb(255, 214, 103)) !important;
+                -webkit-background-clip: text !important;
+                background-clip: text !important;
+                color: transparent !important;
+}
+.heading h1 span{
+  letter-spacing: -2px !important;
+}
+.heading p{
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem !important;
+}
+  .image{
+    width: 100% !important;
+    padding: 1px 1px !important;
+    margin: 15px 0px !important;
+
+  }
+.imageHover{
+  /* padding:0px !important; */
+    width: 100% !important;
+    border: 25px double rgb(255, 202, 57);
+    border-radius: 230px;
+}
+  }
+  /* @media screen and (min-width:1100) {
+  .heading{ 
+    padding-left: 50px;
+    padding-top: 100px;
+  }
+  .heading h1{
+    font-size: 2rem !important;
+    font-family: sans-serif;
+    /* letter-spacing: 1px; */
+
+    /* background: linear-gradient( rgb(255, 214, 103), rgb(255, 202, 57), rgb(255, 214, 103)) !important;
+                -webkit-background-clip: text !important;
+                background-clip: text !important;
+                color: transparent !important;
+}
+.heading p{
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem !important;
+}
+  .image{
+    padding: 95px 60px !important;
+
+  } */
+/* } */
+/* what we provide  */
+.section{
+    background-color: rgb(255, 255, 255);
+    padding:0px 0px;
+}
+/* This pen */
+.provide {
+    padding:0;
+	font-size: 16px;
+	color: #ffffff;
+	text-rendering: optimizeLegibility;
+	font-weight: initial;
+}
+
+.light {
+	background: #f3f5f7;
+}
+
+.play a, a:hover {
+	text-decoration: none;
+	transition: color 0.3s ease-in-out;
+}
+
+#pageHeaderTitle {
+	margin: 2rem auto;
+  width:80%;
+	text-align: center;
+	font-size: 1.3rem;
+    font-weight: 650;
+    color:rgb(18, 64, 85);
+}
+#pageHeaderTitle h3{
+	font-weight: 400;
+  font-family: cursive;
+}
+@media screen and (max-width:635px) {
+  .section{
+    padding:0px 0px;
+  }
+  #pageHeaderTitle{
+    margin: 5px 0px;
+    font-size: 1rem;
+    width: 100%;
+    padding-top: 15px;
+  }
+  #pageHeaderTitle h3{
+    font-size:1.1rem;
+    padding:5px !important;
+  }
+
+}
+
+
+/* Cards */
+.postcard {
+  flex-wrap: wrap;
+  display: flex;
+  
+  box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
+  border-radius: 10px;
+  margin: 0 0 2rem 0;
+  overflow: hidden;
+  position: relative;
+  color: #ffffff;
+
+	&.dark {
+		background-color: #18151f;
+	}
+	&.light {
+		background-color: rgb(5, 83, 109);
+	}
+	
+	.t-dark {
+		/* color: #18151f; */
+	}
+	
+  a {
+    color: inherit;
+  }
+
+	
+	.small {
+		font-size: 80%;
+	}
+
+  .postcard__title {
+    font-size: 1.75rem;
+  }
+
+  .postcard__img {
+    max-height: 180px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+  }
+
+  .postcard__img_link {
+    display: contents;
+  }
+
+  .postcard__bar {
+    width: 50px;
+    height: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #85e7ff;
+    transition: width 0.2s ease;
+  }
+
+  .postcard__text {
+    padding: 1.5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .postcard__preview-txt {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: justify;
+    height: 100%;
+    font-size:1em;
+  }
+
+  &:hover .postcard__bar {
+    width: 100px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .postcard {
+    flex-wrap: inherit;
+
+    .postcard__title {
+      font-size: 2rem;
+    }
+
+
+    .postcard__img {
+      max-width: 300px;
+      max-height: 100%;
+      transition: transform 0.3s ease;
+    }
+
+    .postcard__text {
+      padding: 3rem;
+      width: 100%;
+    }
+
+    .media.postcard__text:before {
+      content: "";
+      position: absolute;
+      display: block;
+      background: #18151f;
+      top: -20%;
+      height: 130%;
+      width: 55px;
+    }
+
+    &:hover .postcard__img {
+      transform: scale(1.1);
+    }
+
+    &:nth-child(2n+1) {
+      flex-direction: row;
+    }
+
+    &:nth-child(2n+0) {
+      flex-direction: row-reverse;
+    }
+  }
+}
+@media screen and (min-width: 1024px){
+		.postcard__text {
+      padding: 2rem 3.5rem;
+    }
+		
+		.postcard__text:before {
+      content: "";
+      position: absolute;
+      display: block;
+      
+      top: -20%;
+      height: 130%;
+      width: 55px;
+    }
+	
+}
+
+/* Service  */
+.serviceSection{
+  background-color: #f3f5f7;
+  padding-top:5px;
+  padding-bottom: 40px;
+}
+.serviceElement{
+  /* padding: 0px 20px; */
+  display: flex;
+  justify-content: center;
+}
+
+.hero {
+  display: inline-block;
+  position: relative;
+  width: 430px;
+  min-width: 430px;
+  height: 470px;
+  border-radius: 20px;
+  overflow:hidden;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+  margin: 30px;
+}
+
+.hero-profile-img {
+  height: 70%;
+}
+
+.hero-description-bk {
+  background-image: linear-gradient(0deg, rgb(56, 168, 219), rgb(0, 0, 0));
+  position: absolute;
+  top: 60%;
+  height: 65%;
+  width: 108%;
+}
+
+
+.hero-date {
+  position: absolute;
+  color: #fff;
+  padding:0px 20px;
+  bottom: 8%;
+}
+.card-heading h4{
+  color:rgb(255, 202, 57);
+  margin-bottom: 25px;
+}
+.hero-date p{
+  font-weight: 400;
+  margin-bottom:0px;
+}
+
+@media screen and (max-width:635px) {
+  .serviceElement{
+    flex-direction: column;
+    align-items: center;
+  }
+   .hero{
+    min-width: 100%;
+    width: 112%;
+    margin: 20px 10px;
+  }
+  .hero-description-bk{
+    top:53%;
+  }
+  .card-heading h4{
+  font-size: 1.2rem;
+  margin: 10px 0px;
+}
+.hero-date{
+  padding:0px 10px;
+}
+}
+
+/* /Connect us  */
+.connectUs{
+  padding:20px;
+}
+.connectUs h1{
+  margin-top: 40px;
+  color:rgb(18, 64, 85);
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.connectUs p{
+  font-size: 30px;
+}
+.connectUs .px-3{
+  font-family: cursive;
+}
+@media screen and (max-width:635px) {
+  .connectUs h1{
+    font-size: 1.2rem;
+  }
+  .connectUs p{
+    font-size: 1.1rem;
+  }
+  .connect-details{
+    padding: 30px 0px !important;}
+  }
+  .connect2{
+    padding:20px 3px !important;
+  }
+}

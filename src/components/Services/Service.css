@@ -1,0 +1,329 @@
+.servicesBack{
+    /* background-image: url("../../images/hometuter.jpg"); */
+    height: 17cm;
+    position:fixed;
+}
+.services{
+    z-index: 11;
+    position: relative;
+    background-color: rgba(0,0,0,0.6);
+    height: 16cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 22px solid white;
+    border-top-right-radius: 100px;
+    border-left: 22px solid white;
+    border-top-left-radius: 100px;
+    border-bottom: 22px solid white;
+    border-top: 22px solid white;
+}
+.textBack{
+    margin-top:160px ;
+}
+.servicesBack img{
+    border-radius: 100px;
+}
+.textBack h1{
+    color: white;
+    font-size: 4rem;
+}
+.textBack p{
+    font-size: 2rem;
+    font-family: cursive;
+}
+@media screen and (max-width: 635px) {
+    .services{
+        height: 252px;
+        border-top: 13px solid white;
+        border-right: 13px solid white;
+        border-top-right-radius: 25px;
+        border-left: 13px solid white;
+        border-top-left-radius: 25px;
+        border-bottom: 13px solid white;
+        
+    }
+    .servicesBack img{
+    max-width: 100vw;
+    height: 250px;
+    border-radius: 100px;
+    }
+    .textBack{
+        margin-top: 80px;
+    }
+    .textBack h1{
+        font-size: 1rem;
+    }
+    .textBack p{
+        font-size: 12px;
+    }
+    .textBack{
+        width: 90%;
+    }
+}
+/* //next section  */
+.service2{
+    /* height: 100vh; */
+    background-color: white;
+    position: relative;
+}
+.service2 {
+  box-sizing: border-box;
+}
+
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cards {
+  display: grid;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-top: 20px;
+  padding: 0;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.cards_item {
+  display: flex;
+}
+
+.card_image {
+  display: flex;
+  height: 250px;
+  box-shadow: 0 50px 100px 0 var(--violet);
+  overflow: hidden;
+}
+
+.card_image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  opacity: 1;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px 25px 5px 50px;
+  transition: transform 0.1s linear, box-shadow 0.2s;
+  background-image: linear-gradient(0deg, rgb(56, 168, 219), rgb(0, 0, 0));
+  border:none;
+}
+
+.card_text:focus,
+.card:focus {
+  outline: 2px dashed var(--aqua);
+}
+
+.card:focus,
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 10px 5px -5px rgba(0, 0, 0, 0.2);
+}
+
+.card_content {
+  padding: 0.5rem 1rem 1rem;
+  color: white;
+  /* background-image: linear-gradient(0deg, rgb(56, 168, 219), rgb(0, 0, 0)); */
+}
+
+.card_text {
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica,
+    Helvetica Neue, Arial, sans-serif;
+  line-height: 1.5;
+  text-size-adjust: 0.2px;
+  padding: 0 1rem;
+}
+.card_text h4{
+    color: rgb(255, 202, 57);
+    margin-top:10px;
+}
+
+.card_text p:first-of-type:first-letter {
+  font-size: 1.8em;
+  font-family: Georgia, Times, serif;
+  margin-right: 0.05em;
+}
+
+@media (min-width: 480px) {
+  .card_text {
+    overflow: auto;
+    max-height: 20rem;
+    scrollbar-width: thin;
+  }
+
+  .card_text::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  .card_text::-webkit-scrollbar-track {
+    background: var(--violet);
+  }
+
+  .card_text::-webkit-scrollbar-thumb {
+    background-color: var(--aqua);
+  }
+}
+@media screen and (max-width: 635px) {
+    .main{
+        margin:0px 10px;
+    }
+    .card_text{
+        padding:0px;
+    }
+}
+
+
+.note {
+  display: block;
+  text-align: center;
+  padding: 0.5rem;
+  font-weight: 900;
+  background-image: linear-gradient(
+    -45deg,
+    transparent 10%,
+    var(--aqua) 10.5%,
+    var(--aqua) 90%,
+    transparent 90.5%
+  );
+  color: var(--black);
+  font-size: 1.3em;
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+@keyframes fly-in {
+  0% {
+    top: 0;
+    right: 0;
+    font-size: 1.325rem;
+  }
+
+  25% {
+    top: 0;
+    right: -200%;
+    font-size: 1.325rem;
+  }
+
+  26% {
+    font-size: 2rem;
+  }
+
+  100% {
+    top: 2rem;
+    right: 0;
+    font-size: 2rem;
+  }
+}
+
+@keyframes fly-out {
+  0% {
+    top: 2rem;
+    right: 0;
+    font-size: 2rem;
+  }
+
+  50% {
+    top: 0;
+    right: -200%;
+    font-size: 1.325rem;
+  }
+
+  100% {
+    top: 0;
+    right: 0;
+    font-size: 1.325rem;
+  }
+}
+
+/* Suggestion form  */
+
+.get-in-touch {
+  max-width: 1000px;
+  margin-top: 200px;
+  /* margin: 200px auto; */
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding: 0px 10px;
+
+}
+.get-in-touch .title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 3.2em;
+  line-height: 48px;
+  padding-bottom: 15px;
+     color: #2469ab;
+    background: #0d1f30;
+    background: -moz-linear-gradient(left,#2469ab  0%,#0d1f30 100%) !important;
+    background: -webkit-linear-gradient(left,#2469ab  0%,#0d1f30 100%) !important;
+    background: linear-gradient(to right,#2469ab  0%,#0d1f30  100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.contact-form .form-field {
+  position: relative;
+  margin: 32px 0;
+}
+.contact-form .input-text {
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: #2469ab;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.contact-form .input-text:focus {
+  outline: none;
+}
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label {
+  -webkit-transform: translateY(-24px);
+          transform: translateY(-24px);
+}
+.contact-form .label {
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #2469ab;
+  cursor: text;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, 
+  -webkit-transform .2s ease-in-out;
+}
+.contact-form .submit-btn {
+  display: inline-block;
+  background-color: #000;
+   background-image: linear-gradient(60deg,rgb(46, 134, 192),#064497);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  width:200px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 635px) {
+  .get-in-touch .title{
+    font-size: 2.1em;
+  }
+}
+
