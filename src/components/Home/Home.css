@@ -42,6 +42,7 @@
     overflow:hidden;
     border: 25px double rgb(255, 202, 57);
     border-radius: 230px;
+    background-image: url("../../images/1041.png");
     /* border-style: ; */
 }
 .image img:hover{
