@@ -21,7 +21,7 @@ export default function Home() {
 				</div>
 				<div className="container-fluid image">
 					<div className="imageHover">
-						<img src="src/images/1041.png" className="img-fluid" alt="..." />
+						<img src="../../images/1041.png" className="img-fluid" alt="..." />
 					</div>
 				</div>
 			</div>
