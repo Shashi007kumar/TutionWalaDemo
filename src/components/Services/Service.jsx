@@ -126,7 +126,7 @@ export default function Service() {
             </div>
             <div className="form-field col-lg-12">
               <label  htmlFor="message" style={{fontSize:'18px', fontWeight:'400', color:'#2469ab',marginBottom:'5px',marginLeft:'8px'}}>Write Here</label>
-              <textarea name="" id="message" cols="131" rows="5" style={{border:'2px solid #2469ab',padding:'4px'}}>write your message</textarea>
+              <textarea name="" id="message" cols="131" rows="5" style={{border:'2px solid #2469ab',padding:'4px'}}></textarea>
             </div>
             <div className="form-field col-lg-12">
               <input className="submit-btn" type="submit" value="Submit"/>
