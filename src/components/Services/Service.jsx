@@ -125,8 +125,8 @@ export default function Service() {
                 <label className="label" for="phone">Contact Number</label>
             </div>
             <div className="form-field col-lg-12">
-              <input id="message" className="input-text js-input" type="text" required/>
-                <label className="label" for="message">Message</label>
+              <label  htmlFor="message" style={{fontSize:'18px', fontWeight:'400', color:'#2469ab',marginBottom:'5px',marginLeft:'8px'}}>Write Here</label>
+              <textarea name="" id="message" cols="131" rows="5" style={{border:'2px solid #2469ab',padding:'4px'}}>write your message</textarea>
             </div>
             <div className="form-field col-lg-12">
               <input className="submit-btn" type="submit" value="Submit"/>

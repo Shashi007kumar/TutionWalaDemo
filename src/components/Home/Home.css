@@ -1,4 +1,3 @@
-/* import back from '../../assets/hometuter-1.jpg'; */
 .background{
     background-image: linear-gradient(-70deg, rgb(24, 87, 116), rgb(0,0,0));
     display: flex;
@@ -42,7 +41,6 @@
     overflow:hidden;
     border: 25px double rgb(255, 202, 57);
     border-radius: 230px;
-    background-image: url("../../images/1041.png");
     /* border-style: ; */
 }
 .image img:hover{
@@ -407,4 +405,3 @@
   .connect2{
     padding:20px 3px !important;
   }
-}
