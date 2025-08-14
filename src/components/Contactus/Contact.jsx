@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react'
 import './Contact.css'
+import contactUs from '../../images/contact-us-image.jpg'
+
 
 export default function Contact() {
     useEffect(() => {
@@ -25,7 +27,7 @@ export default function Contact() {
 <div className="container-fluid connect d-flex">
      <h1 className="text-center">Get In Touch</h1>
     <div className="d-flex connect2 container">
-        <div className="contactImage" ><img src="src/images/contact-us-image.jpg" alt=""/></div>
+        <div className="contactImage" ><img src={contactUs} alt=""/></div>
     <div className="connect-details"><h4>Contact Details</h4>
     <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-geo-alt-fill" viewBox="0 0 16 16">
     <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
