@@ -1,13 +1,16 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
 import './Header.css'
+import mainLogo from '../../images/main-logo.png'
+
+
 export default function Header() {
   return (
     <nav className="navbar sticky-top navbar-expand-lg  navbar-light">
 
         <div className="container-fluid ms-3">
             <Link className="navbar-brand m-0" href="#">
-                <img src="src/images/main-logo.png" alt="Logo" width="200" height="50" className="d-inline-block align-text-top"/>
+                <img src={mainLogo} alt="Logo" width="200" height="50" className="d-inline-block align-text-top"/>
                 {/* <h2>TutionWalla</h2> */}
             </Link>
             <button className="navbar-toggler bg-info" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Footer.css'
-
+import mainLogo from '../../images/main-logo.png'
 
 export default function Footer() {
 	return (
@@ -10,7 +10,7 @@ export default function Footer() {
 			<div className="container footerContainer">
 				<div className="row">
 					<div className="footer-col">
-						<img src="src/images/main-logo.png" alt="Logo" width="300" height="90" className="d-inline-block align-text-top"/>
+						<img src={mainLogo} alt="Logo" width="300" height="90" className="d-inline-block align-text-top"/>
 						<p className='text-light fw-bolder my-3 px-1'>The place where passionate tutors and eager learners discover each other.</p>
 					</div>
 					<div className="footer-col">

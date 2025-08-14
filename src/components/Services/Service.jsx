@@ -1,5 +1,12 @@
 import React, { useEffect } from 'react'
 import './Service.css'
+import homeTutor from '../../images/hometuter.jpg'
+import tutor from '../../images/tutor.avif'
+import skillTest from '../../images/skill-test.avif'
+import report from '../../images/report.jpg'
+import communication from '../../images/communication.png'
+import emergingTech from '../../images/emrging_tech_update.jpeg'
+import personalGrowth from '../../images/Academic_growth.jpg'
 
 export default function Service() {
   useEffect(() => {
@@ -14,7 +21,7 @@ export default function Service() {
   return (
     <>
       <div className="servicesBack">
-        <img src="src/images/hometuter.jpg" alt="" />
+        <img src={homeTutor} alt="" />
       </div>
       <div className="services">
         <div className="textBack">
@@ -31,7 +38,7 @@ export default function Service() {
 
             <li className="cards_item">
               <div className="card" tabindex="0">
-                <div className="card_image"><img src="src/images/tutor.avif" alt="A tutor image" /></div>
+                <div className="card_image"><img src={tutor} alt="A tutor image" /></div>
                 <div className="card_content">
                   <div className="card_text">
                     <h4>Provide Online and Offline Tutor</h4>
@@ -43,7 +50,7 @@ export default function Service() {
             </li>
             <li className="cards_item">
               <div className="card" tabindex="0">
-                <div className="card_image"><img src="src/images/skill-test.avif" alt="Skill test image" /></div>
+                <div className="card_image"><img src={skillTest} alt="Skill test image" /></div>
                 <div className="card_content">
                   <div className="card_text">
                     <h4>Organized Skill Test on Regular Basis</h4>
@@ -54,7 +61,7 @@ export default function Service() {
             </li>
             <li className="cards_item">
               <div className="card" tabindex="0">
-                <div className="card_image"><img src="src/images/report.jpg" alt="Progress Report image" /></div>
+                <div className="card_image"><img src={report} alt="Progress Report image" /></div>
                 <div className="card_content">
                   <div className="card_text">
                     <h4>Provide Monthly Progress Report</h4>
@@ -70,7 +77,7 @@ export default function Service() {
 
             <li className="cards_item">
               <div className="card" tabindex="0">
-                <div className="card_image"><img src="src/images/communication.png" alt="Commuincation module image" /></div>
+                <div className="card_image"><img src={communication} alt="Commuincation module image" /></div>
                 <div className="card_content">
                   <div className="card_text">
                     <h4>Communication Practice Module</h4>
@@ -81,7 +88,7 @@ export default function Service() {
             </li>
             <li className="cards_item">
               <div className="card" tabindex="0">
-                <div className="card_image"><img src="src/images/emrging_tech_update.jpeg" alt="Emerging tech image" /></div>
+                <div className="card_image"><img src={emergingTech} alt="Emerging tech image" /></div>
                 <div className="card_content">
                   <div className="card_text">
                     <h4>Latest/Emerging Skills and Tech Updates</h4>
@@ -93,7 +100,7 @@ export default function Service() {
             </li>
             <li clasNames="cards_item">
               <div className="card" tabindex="0">
-                <div className="card_image"><img src="src/images/Academic_growth.jpg" alt="academic growth image" /></div>
+                <div className="card_image"><img src={personalGrowth} alt="academic growth image" /></div>
                 <div className="card_content">
                   <div className="card_text">
                     <h4>Single Solution for Academic & Personal Growth</h4>
@@ -118,7 +125,7 @@ export default function Service() {
             </div>
             <div className="form-field col-lg-6 ">
               <input id="message" className="input-text js-input" type="text" required/>
-                <label className="label" for="message">optional</label>
+                <label className="label" for="message">Address</label>
             </div>
             <div className="form-field col-lg-6 ">
               <input id="phone" className="input-text js-input" type="text" required/>
@@ -126,7 +133,7 @@ export default function Service() {
             </div>
             <div className="form-field col-lg-12">
               <label  htmlFor="message" style={{fontSize:'18px', fontWeight:'400', color:'#2469ab',marginBottom:'5px',marginLeft:'8px'}}>Write Here</label>
-              <textarea name="" id="message" cols="131" rows="5" style={{border:'2px solid #2469ab',padding:'4px'}}></textarea>
+              <textarea className='textarea' name="" id="message" cols="131" rows="5" style={{border:'2px solid #2469ab',padding:'4px'}}></textarea>
             </div>
             <div className="form-field col-lg-12">
               <input className="submit-btn" type="submit" value="Submit"/>

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import './About.css'
 import { Link } from 'react-router-dom'
-
+import boyImage from '../../images/about_st-removebg.png'
 
 export default function About() {
   useEffect(() => {
@@ -37,7 +37,7 @@ export default function About() {
 
               <div className="image-column col-lg-6 col-md-12 col-sm-12">
                 <div className="inner-column wow fadeInLeft">
-                  <figure class="image-1"><Link href="" class="lightbox-image" data-fancybox="images"><img title="Rahul Kumar Yadav" src="src/images/about_st-removebg.png" alt=""/></Link></figure>
+                  <figure class="image-1"><Link href="" class="lightbox-image" data-fancybox="images"><img src={boyImage} alt=""/></Link></figure>
 
                 </div>
               </div>

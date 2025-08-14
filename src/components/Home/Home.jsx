@@ -1,6 +1,14 @@
 import React, { useEffect } from 'react'
 import './Home.css';
 import { Link } from 'react-router-dom';
+import mainImage from '../../images/1041.png'
+import tutor from '../../images/tutor.avif'
+import student from '../../images/students.avif'
+import service1 from '../../images/personalized_tutor.jpg'
+import service2 from '../../images/skill-test.avif'
+import service3 from '../../images/report.jpg'
+import thankyou from '../../images/thankyou.jpg'
+
 
 export default function Home() {
 	useEffect(() => {
@@ -21,20 +29,20 @@ export default function Home() {
 				</div>
 				<div className="container-fluid image">
 					<div className="imageHover">
-						<img src="src/images/1041.png" className="img-fluid" alt="..." />
+						<img src={mainImage} className="img-fluid" alt="..." />
 					</div>
 				</div>
 			</div>
 
 			<div className="container-fluid provide">
 				<section className="section">
-					<div className="container py-2">
+					<div className="container py-1">
 						<div className="h1 text-center" id="pageHeaderTitle">WHY CHOOSE US <h1 className='text-dark' style={{fontSize:'2.5em'}}>Specialized to Provide</h1><h3 className='text-center text-dark p-3'>We connect students with the perfect tutors by aligning subject expertise, learning level, teaching style, and schedule. </h3></div>
 
 
 						<article className="postcard light red">
 							<a className="postcard__img_link" href="#">
-								<img className="postcard__img" src="src/images/tutor.avif" alt="Image Title" />
+								<img className="postcard__img" src={tutor} alt="Image Title" />
 							</a>
 							<div className="postcard__text t-dark">
 								<h1 className="postcard__title red"><Link to="/services">Professional Tutors</Link></h1>
@@ -50,7 +58,7 @@ export default function Home() {
 						</article>
 						<article className="postcard light red">
 							<a className="postcard__img_link" href="#">
-								<img className="postcard__img" src="src/images/students.avif" alt="Image Title" />
+								<img className="postcard__img" src={student} alt="Image Title" />
 							</a>
 							<div className="postcard__text t-dark">
 								<h1 className="postcard__title red"><Link to="/services">Knowledge Seekers</Link></h1>
@@ -73,7 +81,7 @@ export default function Home() {
 
 				<div className="container-fluid px-3 serviceElement">
 					<div className="first hero">
-						<img className="hero-profile-img" src="src/images/personalized_tutor.jpg" alt="" />
+						<img className="hero-profile-img" src={service1} alt="" />
 						<div className="hero-description-bk"></div>
 						<div className="hero-date">
 							<div className="card-heading">
@@ -84,7 +92,7 @@ export default function Home() {
 					</div>
 
 					<div className="first hero">
-						<img className="hero-profile-img" src="src/images/skill-test.avif" alt="" />
+						<img className="hero-profile-img" src={service2} alt="" />
 						<div className="hero-description-bk"></div>
 						<div className="hero-date">
 							<div className="card-heading">
@@ -96,7 +104,7 @@ export default function Home() {
 					</div>
 
 					<div className="first hero">
-						<img className="hero-profile-img" src="src/images/report.jpg" alt="" />
+						<img className="hero-profile-img" src={service3} alt="" />
 						<div className="hero-description-bk"></div>
 						<div className="hero-date">
 							<div className="card-heading">
@@ -115,7 +123,7 @@ export default function Home() {
 				<p class="text-center px-3">We are here to help you connect us for more infomation </p>
 				<div className="container connectUsdata">
 					<div className="d-flex connect2 container">
-        <div className="contactImage"><img src="src/images/thankyou.jpg" alt=""/></div>
+        <div className="contactImage"><img src={thankyou} alt=""/></div>
     <div className="connect-details"><h4>Contact Details</h4>
     <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-geo-alt-fill" viewBox="0 0 16 16">
     <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
