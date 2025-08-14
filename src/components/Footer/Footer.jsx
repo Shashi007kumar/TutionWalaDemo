@@ -23,12 +23,12 @@ export default function Footer() {
 						</ul>
 					</div>
 					<div className="footer-col">
-						<h4>online shop</h4>
+						<h4>Services</h4>
 						<ul>
-							<li><a href="#">watch</a></li>
-							<li><a href="#">bag</a></li>
-							<li><a href="#">shoes</a></li>
-							<li><a href="#">dress</a></li>
+							<li><a href="#">Tech Updates</a></li>
+							<li><a href="#">Skill Test</a></li>
+							<li><a href="#">Providers</a></li>
+							<li><a href="#">1:1 mentorship</a></li>
 						</ul>
 					</div>
 					<div className="footer-col">
