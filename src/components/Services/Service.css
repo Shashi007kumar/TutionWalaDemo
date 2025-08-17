@@ -30,7 +30,7 @@
 }
 .textBack p{
     font-size: 2rem;
-    font-family: cursive;
+    font-family: serif;
 }
 @media screen and (max-width: 635px) {
     .services{
@@ -52,10 +52,10 @@
         margin-top: 80px;
     }
     .textBack h1{
-        font-size: 1rem;
+        font-size: 1.8rem;
     }
     .textBack p{
-        font-size: 12px;
+        font-size: 18px;
     }
     .textBack{
         width: 90%;

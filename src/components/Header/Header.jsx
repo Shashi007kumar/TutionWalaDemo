@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom';
+import {Link, NavLink} from 'react-router-dom';
 import './Header.css'
 import mainLogo from '../../images/main-Logo.png'
 
@@ -22,7 +22,10 @@ export default function Header() {
             <ul className="navbar-nav center me-5">
                 <li className="nav-item">
                     
-                    <Link className="nav-link" aria-current="page" to="/">Home</Link>
+                    <NavLink className="nav-link" style={({ isActive }) => ({
+                    color: isActive ? "rgb(64, 226, 255)" : "white",
+                    textDecoration: "none",
+                })} aria-current="page" to="/">Home</NavLink>
                 </li>
                 {/* <div className="nav-item dropdown">
                     <Link href="#" className="nav-link  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
@@ -36,14 +39,23 @@ export default function Header() {
                 </div> */}
                 <li className="nav-item">
                     
-                    <Link className="nav-link" to="/services">Services</Link>
+                    <NavLink className="nav-link" style={({ isActive }) => ({
+                    color: isActive ? "rgb(64, 226, 255)" : "white",
+                    textDecoration: "none",
+                })} to="/services">Services</NavLink>
                 </li>
 
                 <li className="nav-item">
-                    <Link className="nav-link" to="/about">About</Link>
+                    <NavLink className="nav-link" style={({ isActive }) => ({
+                    color: isActive ? "rgb(64, 226, 255)" : "white",
+                    textDecoration: "none",
+                })} to="/about">About</NavLink>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" to="/contact">Contact</Link>
+                    <NavLink className="nav-link" style={({ isActive }) => ({
+                    color: isActive ? "rgb(64, 226, 255)" : "white",
+                    textDecoration: "none"
+                })} to="/contact">Contact</NavLink>
                 </li>
             </ul>
         </div>

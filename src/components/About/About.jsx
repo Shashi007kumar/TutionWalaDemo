@@ -14,13 +14,13 @@ export default function About() {
   return (
     <>
       <div classNameName="conatiner-fluid aboutsection">
-        <section class="about-section">
+        <section className="about-section">
           <div className="container">
             <div className="row" style={{marginBottom:'70px'}}>
               <div className="content-column col-lg-6 col-md-12 col-sm-12 order-2">
                 <div className="inner-column">
                   <div className="sec-title">
-                    <span class="title">About TutionWala</span>
+                    <span className="title">About TutionWala</span>
                     <h2>Our mission is to connect passionate educators with curious minds.</h2>
                   </div>
                   <div className="text">At TutionWala, we’ve built something deeply human: a space where passionate tutors and curious students come together, not just to teach and learn, but to grow through meaningful one-on-one interaction. Whether you're a seasoned educator looking to inspire locally or a student searching for guidance beyond the classroom, you're home here.
@@ -30,21 +30,21 @@ export default function About() {
 
                   </div>
                   <div className="btn-box">
-                    <Link to="/contact" class="theme-btn btn-style-one btn-info">Contact Us</Link>
+                    <Link to="/contact" className="theme-btn btn-style-one btn-info">Contact Us</Link>
                   </div>
                 </div>
               </div>
 
               <div className="image-column col-lg-6 col-md-12 col-sm-12">
                 <div className="inner-column wow fadeInLeft">
-                  <figure class="image-1"><Link href="" class="lightbox-image" data-fancybox="images"><img src={boyImage} alt=""/></Link></figure>
+                  <figure className="image-1"><Link href="" className="lightbox-image" data-fancybox="images"><img src={boyImage} alt=""/></Link></figure>
 
                 </div>
               </div>
 
             </div>
             <div className="sec-title">
-              <span class="title">Our Purpose</span>
+              <span className="title">Our Purpose</span>
             </div>
             <div className="text">
               We recognized a need—one that often goes unnoticed. Brilliant tutors are scattered across neighborhoods, ready to share their skills and wisdom, while countless learners seek support that feels personal, patient, and tailored. Our platform bridges this gap by making learning local again, and by turning homes into hubs of knowledge and curiosity.<br/>

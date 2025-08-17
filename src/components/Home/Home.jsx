@@ -47,12 +47,12 @@ export default function Home() {
 							<div className="postcard__text t-dark">
 								<h1 className="postcard__title red"><Link to="/services">Professional Tutors</Link></h1>
 								<div className="postcard__subtitle small">
-									<time datetime="2020-05-25 12:00:00">
+									<time dateTime="2020-05-25 12:00:00">
 										<i className="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
 									</time>
 								</div>
 								<div className="postcard__bar"></div>
-								<div className="postcard__preview-txt"> Empower students while growing your career. Our platform connects skilled tutors with students eager to learn. Whether you're teaching math, science, languages, or art, we'll help you find students near you who match your expertise. Flexible schedules, personalized support, and real income—your teaching journey starts here.</div>
+								<div className="postcard__preview-txt"> Empower students while growing your career. Our platform connects skilled tutors with students eager to learn. Whether you're teaching math, science, languages, or art, we'll help you find students near you who match your expertise. Flexible schedules, personalized support, and real income-your teaching journey starts here.</div>
 								<Link to="/services"><button className="btn btn-info my-3 fw-semibold px-4 text-white">Apply for Tutoring</button></Link>
 							</div>
 						</article>
@@ -63,7 +63,7 @@ export default function Home() {
 							<div className="postcard__text t-dark">
 								<h1 className="postcard__title red"><Link to="/services">Knowledge Seekers</Link></h1>
 								<div className="postcard__subtitle small">
-									<time datetime="2020-05-25 12:00:00">
+									<time dateTime="2020-05-25 12:00:00">
 										<i className="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
 									</time>
 								</div>
@@ -119,8 +119,8 @@ export default function Home() {
 				<Link to="/services"><button className="btn btn-info text-light px-5 py-3 rounded-2 fw-bolder" style={{margin:'auto'}}>View all Services</button></Link></div>
 			</div>
 			<div className="container connectUs p-0">
-				<h1 class="text-center">THANK YOU FOR REACH OUT</h1>
-				<p class="text-center px-3">We are here to help you connect us for more infomation </p>
+				<h1 className="text-center">THANK YOU FOR REACH OUT</h1>
+				<p className="text-center px-3">We are here to help you connect us for more infomation </p>
 				<div className="container connectUsdata">
 					<div className="d-flex connect2 container">
         <div className="contactImage"><img src={thankyou} alt=""/></div>
@@ -132,7 +132,7 @@ export default function Home() {
     <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
     </svg> shiva01829755@gmail.com</p>
     <p> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-telephone-plus-fill" viewBox="0 0 16 16">
-    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zM12.5 1a.5.5 0 0 1 .5.5V3h1.5a.5.5 0 0 1 0 1H13v1.5a.5.5 0 0 1-1 0V4h-1.5a.5.5 0 0 1 0-1H12V1.5a.5.5 0 0 1 .5-.5"/>
+    <path fillRule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zM12.5 1a.5.5 0 0 1 .5.5V3h1.5a.5.5 0 0 1 0 1H13v1.5a.5.5 0 0 1-1 0V4h-1.5a.5.5 0 0 1 0-1H12V1.5a.5.5 0 0 1 .5-.5"/>
     </svg> +91 6387752734  +91 8630881058</p>
 	<h2 className='mt-5 pt-2' style={{fontFamily:'', letterSpacing:'1px', color:'lightgray', fontWeight:'700'}}>Lets Begin Your Journey<br/> with TutionWala</h2>
     </div>
