@@ -20,13 +20,13 @@ export default function About() {
               <div className="content-column col-lg-6 col-md-12 col-sm-12 order-2">
                 <div className="inner-column">
                   <div className="sec-title">
-                    <span className="title">About TutionWala</span>
+                    <span className="title">About TutionDekho</span>
                     <h2>Our mission is to connect passionate educators with curious minds.</h2>
                   </div>
-                  <div className="text">At TutionWala, we’ve built something deeply human: a space where passionate tutors and curious students come together, not just to teach and learn, but to grow through meaningful one-on-one interaction. Whether you're a seasoned educator looking to inspire locally or a student searching for guidance beyond the classroom, you're home here.
+                  <div className="text">At TutionDekho, we’ve built something deeply human: a space where passionate tutors and curious students come together, not just to teach and learn, but to grow through meaningful one-on-one interaction. Whether you're a seasoned educator looking to inspire locally or a student searching for guidance beyond the classroom, you're home here.
 </div>
                   <div className="text">
-                    At the heart of TutionWala is a dream: to see every neighborhood buzzing with learning, to witness homes turning into mini classrooms filled with laughter and insight, and to help people realize that meaningful education doesn’t require big buildings—just big hearts.
+                    At the heart of TutionDekho is a dream: to see every neighborhood buzzing with learning, to witness homes turning into mini classrooms filled with laughter and insight, and to help people realize that meaningful education doesn’t require big buildings—just big hearts.
 
                   </div>
                   <div className="btn-box">

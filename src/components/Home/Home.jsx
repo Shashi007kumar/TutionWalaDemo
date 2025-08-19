@@ -22,7 +22,7 @@ export default function Home() {
 		<>
 			<div className="container-fluid background">
 				<div className="container heading">
-					<h1 className='fw-bold'>Welcome to <span style={{color:'rgba(108, 213, 255, 1)', letterSpacing:'-10px', fontSize:'1.5em'}}>T</span>ution<span style={{color:'rgba(108, 213, 255, 1)'}}>W</span>ala where passionate tutors and eager learners discover each other.</h1>
+					<h1 className='fw-bold'>Welcome to <span style={{color:'rgba(108, 213, 255, 1)', letterSpacing:'-10px', fontSize:'1.5em'}}>T</span>ution<span style={{color:'rgba(108, 213, 255, 1)'}}>D</span>ekho where passionate tutors and eager learners discover each other.</h1>
 					<p>Empowering Students and Tutors to Discover Their Perfect Match for a Brighter Learning Journey!  Let’s make learning exciting and interactive together!</p>
 					<Link to="/services"><button className="btn btn-info my-3 mx-3 fw-semibold text-white" style={{padding:'16px 85px'}}>Explore</button></Link>
 					<Link to="/about"><button className="btn btn-outline-secondary my-3 mx-3 fw-semibold text-white" style={{padding:'16px 70px'}}>Know more</button></Link>
@@ -134,7 +134,7 @@ export default function Home() {
     <p> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-telephone-plus-fill" viewBox="0 0 16 16">
     <path fillRule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zM12.5 1a.5.5 0 0 1 .5.5V3h1.5a.5.5 0 0 1 0 1H13v1.5a.5.5 0 0 1-1 0V4h-1.5a.5.5 0 0 1 0-1H12V1.5a.5.5 0 0 1 .5-.5"/>
     </svg> +91 6387752734  +91 8630881058</p>
-	<h2 className='mt-5 pt-2' style={{fontFamily:'', letterSpacing:'1px', color:'lightgray', fontWeight:'700'}}>Lets Begin Your Journey<br/> with TutionWala</h2>
+	<h2 className='mt-5 pt-2' style={{fontFamily:'', letterSpacing:'1px', color:'lightgray', fontWeight:'700'}}>Lets Begin Your Journey<br/> with TutionDekho</h2>
     </div>
     </div>
 				</div>

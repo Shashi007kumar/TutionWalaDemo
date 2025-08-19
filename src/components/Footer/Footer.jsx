@@ -51,7 +51,7 @@ export default function Footer() {
 					</div>
 				</div>
 			</div>
-			<p className='text-light text-center mt-4' style={{fontSize:'smaller'}}>Copyright &copy; 2025. All Rights Reserved. TutionWala </p>
+			<p className='text-light text-center mt-4' style={{fontSize:'smaller'}}>Copyright &copy; 2025. All Rights Reserved. TutionDekho </p>
 		</footer>
 
 	)
